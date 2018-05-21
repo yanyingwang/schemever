@@ -1,8 +1,9 @@
 ;; cd ~ && git clone https://github.com/ovenpasta/thunderchez.git
 (library-directories "~/thunderchez")
+(import (matchable))
 
 ;; cd ~ && git clone https://github.com/ashinn/irregex
-(load "~/irregex/irregex.scm")
+;;(load "~/irregex/irregex.scm")
 
 (define (string-split s c)
   (letrec* ([len (string-length s)]
